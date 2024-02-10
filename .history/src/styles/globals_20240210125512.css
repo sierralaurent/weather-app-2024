@@ -1,0 +1,22 @@
+/* Import Tailwind CSS base, components, and utilities */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Define the animated gradient background */
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Apply the animated gradient background to the body */
+body {
+  font-family: "Comfortaa", sans-serif;
+  background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+  background-size: 200% 200%;
+  animation: gradient 5s linear infinite;
+}

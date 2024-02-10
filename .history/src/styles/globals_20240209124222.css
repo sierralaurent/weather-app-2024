@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+:root {
+ 
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+
+  }
+}
+
+body {
+
+}

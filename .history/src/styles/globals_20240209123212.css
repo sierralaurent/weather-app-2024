@@ -1,0 +1,28 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --Emerald: '#244B5A';
+  --Sage: '#85AF9A';
+  --Cool-Gray: '#D0CFCD';
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --Emerald: '#244B5A';
+    --Sage: '#85AF9A';
+    --Cool-Gray: '#D0CFCD';
+  }
+}
+
+body {
+  --foreground-rgb: 255, 255, 255;
+  --Emerald: '#244B5A';
+  --Sage: '#85AF9A';
+  --Cool-Gray: '#D0CFCD';
+}
