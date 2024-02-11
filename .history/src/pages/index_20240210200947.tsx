@@ -10,7 +10,7 @@ export default function Home() {
   const [data, setData] = useState<any>();
   const [city, setCity] = useState('');
   const [searched, setSearched] = useState(false);
-  const API_KEY = process.env.NEXT_PUBLIC_WEATHER_API_KEY;
+  const API_KEY = `${process.env.WEATHER_API_KEY}`;
 
   const fetchCurrentWeather = () => {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;

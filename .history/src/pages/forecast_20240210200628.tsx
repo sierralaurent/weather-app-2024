@@ -9,7 +9,7 @@ export default function Forecast() {
   const [data, setData] = useState<any>();
   const [city, setCity] = useState('');
   const [searched, setSearched] = useState(false);
-  const API_KEY = process.env.NEXT_PUBLIC_WEATHER_API_KEY;
+  const API_KEY = process.env.APIkey;
 
   const fetchWeatherForecast = () => {
     const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric`;
