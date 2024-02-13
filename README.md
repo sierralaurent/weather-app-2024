@@ -4,4 +4,4 @@
 - Laurent, Sierra
 
 ### Description
-Weather App that display the weather for a searched locations for current and 5 day forecasts.
+- Weather App that displays the weather for a searched location. Displaying current weather and 5 day forecasts.
